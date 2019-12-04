@@ -14,6 +14,7 @@ import carousel from './common/carousel';
 import loadingProgressBar from './global/loading-progress-bar';
 import svgInjector from './global/svg-injector';
 import objectFitImages from './global/object-fit-polyfill';
+import './banner-add-group.js';
 
 export default class Global extends PageManager {
     onReady() {
